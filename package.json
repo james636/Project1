@@ -1,0 +1,27 @@
+{
+  "name": "server_nodejs",
+  "version": "1.0.0",
+  "description": "Node Guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james636/Project1.git"
+  },
+  "author": "James S Sheppard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james636/Project1/issues"
+  },
+  "homepage": "https://github.com/james636/Project1#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
