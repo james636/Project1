@@ -25,7 +25,7 @@ Some of these features will be old ideas with MV pattern of contructs, but I wil
 Newly learned features will be a shopping cart, Authorization IO, Building in GraphQL, generating PDF's on the fly (Server Side) and handeling payments. 
 
 ### Wireframes
-[Wireframes](https://github.com/james636/Project1/blob/master/Wireframes.pdf)
+[Wireframes](https://github.com/james636/Project1/blob/branch1/Wireframes.pdf)
 
 Six wireframes were added to demo pages: 
 
