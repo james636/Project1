@@ -1,0 +1,7 @@
+Create a new npm project
+>terminal> npm init> //creates package.json
+npm install --save express //installs as production dependency
+mpn install --save-dev nodemon //npm server simplifies auto-restart server with code changes
+>package.josn>"scripts"><add>"start": "nodemon app.js"
+>npm instal --save body-parser  //register parsing of body in forms w/3-rd party package
+>create app.js folder
