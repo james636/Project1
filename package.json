@@ -13,7 +13,7 @@
     "url": "git+https://github.com/james636/Project1.git"
   },
   "author": "James S Sheppard",
-  "license": ("ISC")["https://github.com/james636/Project1/blob/master/LICENSE"],
+  "license": "(ISC)[https://github.com/james636/Project1/blob/master/LICENSE]",
   "bugs": {
     "url": "https://github.com/james636/Project1/issues"
   },
