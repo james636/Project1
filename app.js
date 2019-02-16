@@ -1,9 +1,14 @@
 const path = require('path')
-const express = require('express');//import express.js
 
+const express = require('express');//import express.js
 const bodyParser = require('body-parser');//import newly installed body parser
 
+const errorController = require('./controllers/error');
+
 const app = express();
+
+app.set('view engine', 'ejs');//tell express where to find dynamic views, set view engine to string ejs 
+app.set('views', 'views');//set configuration and where to go.
 
 const adminRoutes = require('./routes/admin.js');//importing router opject
 
@@ -16,9 +21,7 @@ app.use(bodyParser.urlencoded({extended: true})); //function registers middlewar
 app.use('/admin', adminRoutes);//admin routes handler, order matters
 app.use(shopRoutes);//order matters because get here
 
-app.use('/', (req, res, next)=>{
-    res.status(404).sendFile(path.join(__dirname, 'Views','404.html'));
-});
+app.use(errorController.get404);
 
 app.listen(3000);
 
