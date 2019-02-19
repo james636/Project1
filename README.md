@@ -27,14 +27,18 @@ Newly learned features will be a shopping cart, Authorization IO, Building in Gr
 ### Wireframes
 [Wireframes](https://github.com/james636/Project1/blob/branch1/Wireframes.pdf)
 
-Six wireframes were added to demo pages: 
+Ten wireframes were added to demo pages: 
 
+- /Shop
 - /Login 
 - /Register
-- /Product
-- /Product/New
-- /Reviews(Blog)
-- /Cart/(user-id)      
+- /Products
+- /Admin-Product/Add
+- /Admin-Product/Edit
+- /Product-Detail
+- /Cart/(user-id)
+- /Checkout
+- /Orders      
 
 ### Project Tracker
 Link for [Project](https://www.pivotaltracker.com/n/projects/2239228)
